@@ -1,0 +1,32 @@
+{{template "base/head" .}}
+<div class="home">
+	<div class="ui stackable middle very relaxed page grid">
+		<div class="sixteen wide center aligned centered column">
+			<div class="logo">
+				<img src="{{AppSubURL}}/img/SwayBien-hero.svg" alt="SwayBien" />
+			</div>
+			<div class="hero">
+			{{if eq .Lang "de-DE"}}
+				<h2>Code-Repository des SwayBien-Teams</h2>
+			{{else if eq .Lang "zh-CN"}}
+				<h2>随变团队的代码仓库</h2>
+			{{else if eq .Lang "fr-FR"}}
+				<h2>Dépôt de code de l'équipe SwayBien</h2>
+			{{else if eq .Lang "es-ES"}}
+				<h2>Repositorio de código del equipo SwayBien</h2>
+			{{else if eq .Lang "pt-BR"}}
+				<h2>Repositório de código da equipe SwayBien</h2>
+			{{else if eq .Lang "ru-RU"}}
+				<h2>Репозиторий кода команды SwayBien</h2>
+			{{else if eq .Lang "uk-UA"}}
+				<h2>Репозиторій коду команди SwayBien</h2>
+			{{else if eq .Lang "it-IT"}}
+				<h2>Repository di codice del team SwayBien</h2>
+			{{else}}
+				<h2>SwayBien Team Code Repository</h2>
+			{{end}}
+			</div>
+		</div>
+	</div>
+</div>
+{{template "base/footer" .}}
