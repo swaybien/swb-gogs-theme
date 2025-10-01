@@ -10,7 +10,7 @@
 /* 提高层 */
 .darkmode-layer,
 .darkmode-toggle {
-  z-index: 128;
+  z-index: 4096;
 }
 /* 深色模式切换按钮 */
 .dark-btn {
