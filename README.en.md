@@ -2,6 +2,13 @@
 
 > English | [简体中文](README.md)
 
+## Changes and Features
+
+- Replace icons and title with SwayBien icons and title;
+- Replace default user avatar with matchstick man avatar;
+- Dark mode and toggle button based on Darkmode.js;
+- Page preloading feature based on instant.page.
+
 ## Usage
 
 1. Download the theme files
@@ -34,3 +41,12 @@
 ## License
 
 [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE)
+
+### Acknowledgments
+
+#### Projects
+
+|     Name     | License                                | Address                                                                                    |
+| :----------: | :------------------------------------- | :----------------------------------------------------------------------------------------- |
+| darkmode.js  | [MIT license](https://mit-license.org) | [Github](https://github.com/sandoche/Darkmode.js)、[Website](https://darkmodejs.learn.uno) |
+| instant.page | [MIT license](https://mit-license.org) | [Github](https://github.com/instantpage/instant.page)、[Website](https://instant.page)     |
