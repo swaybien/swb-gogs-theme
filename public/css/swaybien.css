@@ -1,9 +1,9 @@
 /* 深色模式 */
 /* 防止背景图片、svg、canvas 和视频等混色 */
-.darkmode--activated .markdown-body img,
-.darkmode--activated .markdown-body svg,
-.darkmode--activated .markdown-body canvas,
-.darkmode--activated .markdown-body video {
+.darkmode--activated img,
+.darkmode--activated svg,
+.darkmode--activated canvas,
+.darkmode--activated video {
   isolation: isolate;
   mix-blend-mode: difference;
 }
@@ -11,4 +11,8 @@
 .darkmode-layer,
 .darkmode-toggle {
   z-index: 128;
+}
+/* 深色模式切换按钮 */
+.dark-btn {
+  cursor: pointer;
 }
