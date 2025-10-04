@@ -11,38 +11,7 @@
 			</div>
 			<div class="ui right links">
 				<!-- SwayBien 深色模式切换按钮 -->
-				<a class="dark-btn" title="
-					{{if eq .Lang "zh-CN"}}切换深色模式
-					{{else if or (eq .Lang "zh-HK") (eq .Lang "zh-TW")}}切換深色模式
-					{{else if eq .Lang "de-DE"}}Dunkelmodus umschalten
-					{{else if eq .Lang "fr-FR"}}Basculer le mode sombre
-					{{else if eq .Lang "nl-NL"}}Donkere modus in-/uitschakelen
-					{{else if eq .Lang "lv-LV"}}Pārslēgt tumšo režīmu
-					{{else if eq .Lang "ru-RU"}}Переключить тёмный режим
-					{{else if eq .Lang "ja-JP"}}ダークモードに切り替え
-					{{else if eq .Lang "es-ES"}}Cambiar a modo oscuro
-					{{else if eq .Lang "pt-BR"}}Alternar modo escuro
-					{{else if eq .Lang "pl-PL"}}Przełącz tryb ciemny
-					{{else if eq .Lang "bg-BG"}}Превключване на тъмен режим
-					{{else if eq .Lang "it-IT"}}Attiva/disattiva modalità scura
-					{{else if eq .Lang "fi-FI"}}Vaihda tummaan tila
-					{{else if eq .Lang "tr-TR"}}Karanlık modu değiştir
-					{{else if eq .Lang "cs-CZ"}}Přepnout tmavý režim
-					{{else if eq .Lang "sr-SP"}}Промени тамни мод
-					{{else if eq .Lang "sv-SE"}}Växla mörkt läge
-					{{else if eq .Lang "ko-KR"}}다크 모드 전환
-					{{else if eq .Lang "gl-ES"}}Cambiar a modo escuro
-					{{else if eq .Lang "uk-UA"}}Перемкнути темний режим
-					{{else if eq .Lang "en-GB"}}Toggle dark mode
-					{{else if eq .Lang "hu-HU"}}Sötét mód váltása
-					{{else if eq .Lang "sk-SK"}}Prepnúť tmavý režim
-					{{else if eq .Lang "id-ID"}}Aktifkan mode gelap
-					{{else if eq .Lang "fa-IR"}}تغییر حالت تاریک
-					{{else if eq .Lang "vi-VN"}}Chuyển đổi chế độ tối
-					{{else if eq .Lang "pt-PT"}}Alternar modo escuro
-					{{else if eq .Lang "mn-MN"}}Хар режимд шилжих
-					{{else if eq .Lang "ro-RO"}}Comută modul întunecat
-					{{else}}Toggle dark mode{{end}}"><i class="octicon octicon-light-bulb rear"></i></a>
+				<a class="dark-btn" title="{{if eq .Lang "zh-CN"}}切换深色模式{{else if or (eq .Lang "zh-HK") (eq .Lang "zh-TW")}}切換深色模式{{else if eq .Lang "de-DE"}}Dunkelmodus umschalten{{else if eq .Lang "fr-FR"}}Basculer le mode sombre{{else if eq .Lang "nl-NL"}}Donkere modus in-/uitschakelen{{else if eq .Lang "lv-LV"}}Pārslēgt tumšo režīmu{{else if eq .Lang "ru-RU"}}Переключить тёмный режим{{else if eq .Lang "ja-JP"}}ダークモードに切り替え{{else if eq .Lang "es-ES"}}Cambiar a modo oscuro{{else if eq .Lang "pt-BR"}}Alternar modo escuro{{else if eq .Lang "pl-PL"}}Przełącz tryb ciemny{{else if eq .Lang "bg-BG"}}Превключване на тъмен режим{{else if eq .Lang "it-IT"}}Attiva/disattiva modalità scura{{else if eq .Lang "fi-FI"}}Vaihda tummaan tila{{else if eq .Lang "tr-TR"}}Karanlık modu değiştir{{else if eq .Lang "cs-CZ"}}Přepnout tmavý režim{{else if eq .Lang "sr-SP"}}Промени тамни мод{{else if eq .Lang "sv-SE"}}Växla mörkt läge{{else if eq .Lang "ko-KR"}}다크 모드 전환{{else if eq .Lang "gl-ES"}}Cambiar a modo escuro{{else if eq .Lang "uk-UA"}}Перемкнути темний режим{{else if eq .Lang "en-GB"}}Toggle dark mode{{else if eq .Lang "hu-HU"}}Sötét mód váltása{{else if eq .Lang "sk-SK"}}Prepnúť tmavý režim{{else if eq .Lang "id-ID"}}Aktifkan mode gelap{{else if eq .Lang "fa-IR"}}تغییر حالت تاریک{{else if eq .Lang "vi-VN"}}Chuyển đổi chế độ tối{{else if eq .Lang "pt-PT"}}Alternar modo escuro{{else if eq .Lang "mn-MN"}}Хар режимд шилжих{{else if eq .Lang "ro-RO"}}Comută modul întunecat{{else}}Toggle dark mode{{end}}"><i class="octicon octicon-light-bulb rear"></i></a>
 				{{if ShowFooterTemplateLoadTime}}
 					<span>
 						{{.i18n.Tr "page"}}: <strong>{{LoadTimes .PageStartTime}}</strong> {{.i18n.Tr "template"}}: <strong>{{call .TmplLoadTimes}}</strong>
