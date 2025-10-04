@@ -2,6 +2,8 @@
 
 > [English](README.en.md) | 简体中文
 
+![随变图标](public/img/SwayBien-hero.svg)
+
 ## 更改和功能
 
 - 替换图标和标题为随变图标和标题；
@@ -14,7 +16,7 @@
 1. 下载主题文件
 
    ```shellscript
-   git clone --depth=1 https://github.com/swaybien/swb-gogs-theme.git
+   git clone --depth=1 https://github.com/swaybien/swb-gogs-theme.git || git clone --depth=1 https://git.pj568.eu.org/SwayBien/swb-gogs-theme.git
    ```
 
 2. 链接主题文件并重启服务

@@ -2,19 +2,21 @@
 
 > English | [简体中文](README.md)
 
+![SwayBien icon](public/img/SwayBien-hero.svg)
+
 ## Changes and Features
 
 - Replace icons and title with SwayBien icons and title;
 - Replace default user avatar with matchstick man avatar;
-- Dark mode and toggle button based on Darkmode.js;
-- Page preloading feature based on instant.page.
+- Dark mode and toggle button supported by Darkmode.js;
+- Page preloading feature supported by instant.page.
 
 ## Usage
 
 1. Download the theme files
 
    ```shellscript
-   git clone --depth=1 https://github.com/swaybien/swb-gogs-theme.git
+   git clone --depth=1 https://github.com/swaybien/swb-gogs-theme.git || git clone --depth=1 https://git.pj568.eu.org/SwayBien/swb-gogs-theme.git
    ```
 
 2. Link theme files and restart the service
