@@ -7,7 +7,7 @@
 	<footer>
 		<div class="ui container">
 			<div class="ui left">
-				© {{Year}} {{if eq .Lang "zh-CN"}}随变{{else}}{{AppName}}{{end}}
+				© {{Year}} {{if eq .Lang "zh-CN"}}随变{{else if or (eq .Lang "zh-HK") (eq .Lang "zh-TW")}}隨變{{else}}{{AppName}}{{end}}
 			</div>
 			<div class="ui right links">
 				<a class="dark-btn" title="{{if eq .Lang "zh-CN"}}切换深色模式{{else}}Toggle darkmode{{end}}"><i class="octicon octicon-light-bulb rear"></i></a>

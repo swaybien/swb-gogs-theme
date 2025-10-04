@@ -22,8 +22,6 @@
    ```shellscript
    cp -uvr swb-gogs-theme/public path/to/your/gogs/custom/public
    cp -uvr swb-gogs-theme/templates path/to/your/gogs/custom/templates
-   cp -uvr swb-gogs-theme/public path/to/your/gogs/public
-   cp -uvr swb-gogs-theme/templates path/to/your/gogs/templates
    # docker compose restart gogs
    ```
 

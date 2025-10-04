@@ -77,7 +77,7 @@
 	<script src="{{AppSubURL}}/js/swaybien.js"></script>
 	<script src="{{AppSubURL}}/js/gogs.js?v={{BuildCommit}}"></script>
 
-	<title>{{if .Title}}{{.Title}} - {{end}}{{if eq .Lang "zh-CN"}}随变{{else}}{{AppName}}{{end}}</title>
+	<title>{{if .Title}}{{.Title}} - {{end}}{{if eq .Lang "zh-CN"}}随变{{else if or (eq .Lang "zh-HK") (eq .Lang "zh-TW")}}隨變{{else}}{{AppName}}{{end}}</title>
 
 	<meta name="theme-color" content="{{ThemeColorMetaTag}}">
 
