@@ -12,7 +12,12 @@
 .darkmode-toggle {
   z-index: 4096;
 }
-/* 深色模式切换按钮 */
-.dark-btn {
+/* 深色模式切换按钮和同步按钮 */
+.swb-dark-btn,
+.swb-sync-btn {
   cursor: pointer;
+}
+/* 隐藏元素 */
+swb-hide {
+  display: none;
 }

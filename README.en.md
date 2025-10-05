@@ -8,6 +8,7 @@
 
 - Replace icons and title with SwayBien icons and title;
 - Replace default user avatar with matchstick man avatar;
+- Mirror repository sync button;
 - Dark mode and toggle button supported by Darkmode.js;
 - Page preloading feature supported by instant.page.
 

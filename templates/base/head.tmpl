@@ -60,9 +60,9 @@
 
 	<!-- Stylesheet -->
 	<link rel="stylesheet" href="{{AppSubURL}}/css/semantic-2.4.2.min.css">
+	<link rel="stylesheet" href="{{AppSubURL}}/css/gogs.min.css?v={{BuildCommit}}">
 	<!-- SwayBien Stylesheet -->
 	<link rel="stylesheet" href="{{AppSubURL}}/css/swaybien.css">
-	<link rel="stylesheet" href="{{AppSubURL}}/css/gogs.min.css?v={{BuildCommit}}">
 	<noscript>
 		<style>
 			.dropdown:hover > .menu { display: block; }
@@ -72,10 +72,10 @@
 
 	<!-- JavaScript -->
 	<script src="{{AppSubURL}}/js/semantic-2.4.2.min.js"></script>
+	<script src="{{AppSubURL}}/js/gogs.js?v={{BuildCommit}}"></script>
 	<!-- SwayBien JavaScript -->
 	<script src="{{AppSubURL}}/js/libs/darkmode-js-1.5.7.min.js"></script>
 	<script src="{{AppSubURL}}/js/swaybien.js"></script>
-	<script src="{{AppSubURL}}/js/gogs.js?v={{BuildCommit}}"></script>
 
 	<title>{{if .Title}}{{.Title}} - {{end}}{{if eq .Lang "zh-CN"}}随变{{else if or (eq .Lang "zh-HK") (eq .Lang "zh-TW")}}隨變{{else}}{{AppName}}{{end}}</title>
 
@@ -154,7 +154,7 @@
 													<i class="octicon octicon-settings"></i> {{.i18n.Tr "your_settings"}}
 												</a>
 												<!-- SwayBien 深色模式切换按钮 -->
-												<a class="dark-btn item">
+												<a class="swb-dark-btn item">
 													<i class="octicon octicon-light-bulb"></i>
 													{{if eq .Lang "zh-CN"}}切换深色模式
 													{{else if or (eq .Lang "zh-HK") (eq .Lang "zh-TW")}}切換深色模式
@@ -223,8 +223,15 @@
 										<a class="item{{if .PageIsSignIn}} active{{end}}" href="{{AppSubURL}}/user/login?redirect_to={{.Link}}">
 											<i class="octicon octicon-sign-in"></i> {{.i18n.Tr "sign_in"}}
 										</a>
-										<!-- SwayBien 深色模式切换按钮 -->
-										<a class="dark-btn item">
+										<!-- SwayBien 随变立刻同步镜像仓库按钮 -->
+										{{if and .IsRepositoryAdmin .Repository.IsMirror}}
+										<a class="swb-sync-btn item" data-repo="{{AppSubURL}}/{{.Repository.Owner.Name}}/{{.Repository.Name}}/settings">
+											<i class="octicon octicon-sync"></i> {{$.i18n.Tr "repo.settings.sync_mirror"}} {{.Repository.Name}}
+											<swb-hide>{{.CSRFTokenHTML}}</swb-hide>
+										</a>
+										{{end}}
+										<!-- SwayBien 随变深色模式切换按钮 -->
+										<a class="swb-dark-btn item">
 											<i class="octicon octicon-light-bulb"></i> {{if eq .Lang "zh-CN"}}切换深色模式
 													{{else if or (eq .Lang "zh-HK") (eq .Lang "zh-TW")}}切換深色模式
 													{{else if eq .Lang "de-DE"}}Dunkelmodus umschalten
