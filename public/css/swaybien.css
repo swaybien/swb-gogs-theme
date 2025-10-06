@@ -3,7 +3,9 @@
 .darkmode--activated img,
 .darkmode--activated svg,
 .darkmode--activated canvas,
-.darkmode--activated video {
+.darkmode--activated video,
+.darkmode--activated .avatar,
+.darkmode--activated .image {
   isolation: isolate;
   mix-blend-mode: difference;
 }
