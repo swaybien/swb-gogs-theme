@@ -23,3 +23,16 @@
 swb-hide {
   display: none;
 }
+/* 字体 */
+:root,
+html,
+body,
+button,
+input,
+select,
+textarea,
+code,
+pre {
+  font-family: "Maple Mono NF CN", "Maple Mono CN", Consolas, Liberation Mono,
+    Menlo, monospace;
+}

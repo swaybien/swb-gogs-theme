@@ -9,6 +9,7 @@
 - 替换图标和标题为随变图标和标题；
 - 替换默认用户头像为火柴人头像；
 - 镜像仓库快速同步按钮；
+- `MapleMono-NF-CN` 字体；
 - 基于 Darkmode.js 的深色模式和切换按钮；
 - 基于 instant.page 的页面预加载功能。
 
@@ -47,7 +48,8 @@
 
 #### 项目
 
-|     名称     | 协议                                   | 地址                                                                                       |
-| :----------: | :------------------------------------- | :----------------------------------------------------------------------------------------- |
-| darkmode.js  | [MIT license](https://mit-license.org) | [Github](https://github.com/sandoche/Darkmode.js)、[Website](https://darkmodejs.learn.uno) |
-| instant.page | [MIT license](https://mit-license.org) | [Github](https://github.com/instantpage/instant.page)、[Website](https://instant.page)     |
+|     名称     | 协议                                                                                          | 地址                                                                                       |
+| :----------: | :-------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------- |
+| darkmode.js  | [MIT license](https://mit-license.org)                                                        | [Github](https://github.com/sandoche/Darkmode.js)、[Website](https://darkmodejs.learn.uno) |
+| instant.page | [MIT license](https://mit-license.org)                                                        | [Github](https://github.com/instantpage/instant.page)、[Website](https://instant.page)     |
+|  maple-font  | [OFL-1.1 license](https://github.com/subframe7536/maple-font/raw/refs/heads/variable/OFL.txt) | [Github](https://github.com/subframe7536/maple-font)、[Website](https://font.subf.dev/)    |

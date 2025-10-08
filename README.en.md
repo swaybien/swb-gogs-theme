@@ -9,6 +9,7 @@
 - Replace icons and title with SwayBien icons and title;
 - Replace default user avatar with matchstick man avatar;
 - Mirror repository sync button;
+- `MapleMono-NF-CN` font；
 - Dark mode and toggle button supported by Darkmode.js;
 - Page preloading feature supported by instant.page.
 
@@ -47,7 +48,8 @@
 
 #### Projects
 
-|     Name     | License                                | Address                                                                                    |
-| :----------: | :------------------------------------- | :----------------------------------------------------------------------------------------- |
-| darkmode.js  | [MIT license](https://mit-license.org) | [Github](https://github.com/sandoche/Darkmode.js)、[Website](https://darkmodejs.learn.uno) |
-| instant.page | [MIT license](https://mit-license.org) | [Github](https://github.com/instantpage/instant.page)、[Website](https://instant.page)     |
+|     Name     | License                                                                                       | Address                                                                                    |
+| :----------: | :-------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------- |
+| darkmode.js  | [MIT license](https://mit-license.org)                                                        | [Github](https://github.com/sandoche/Darkmode.js)、[Website](https://darkmodejs.learn.uno) |
+| instant.page | [MIT license](https://mit-license.org)                                                        | [Github](https://github.com/instantpage/instant.page)、[Website](https://instant.page)     |
+|  maple-font  | [OFL-1.1 license](https://github.com/subframe7536/maple-font/raw/refs/heads/variable/OFL.txt) | [Github](https://github.com/subframe7536/maple-font)、[Website](https://font.subf.dev/)    |
